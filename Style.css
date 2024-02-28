@@ -147,6 +147,7 @@ body{
     background: var(--GrayishBlue);
 }
 
+
 .share-botton:hover{
     background: var(--DesaturatedDarkBlue);
 }
@@ -168,7 +169,7 @@ body{
         flex-direction: row;
         width: 750px;
         height: auto;
-        position: static;
+        position: relative;
     }
 
     .image-box{
@@ -205,8 +206,8 @@ body{
         width: 250px;
         height: 57px;
         border-radius: 10px;
-        bottom: 465px;
-        right: 280px;
+        bottom: 110px;
+        right: -65px;
     }
 
     .share::after{
